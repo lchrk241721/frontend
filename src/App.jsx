@@ -4,7 +4,7 @@ import ResultsTable from './components/ResultsTable';
 import Summary from './components/Summary';
 import './App.css';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+const API_BASE = 'https://backend-aqm4.onrender.com' || 'http://localhost:3001';
 
 function App() {
   const [results, setResults] = useState(null);
