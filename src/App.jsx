@@ -4,7 +4,7 @@ import ResultsTable from './components/ResultsTable';
 import Summary from './components/Summary';
 import './App.css';
 
-//const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 
 function App() {
   const [results, setResults] = useState(null);
